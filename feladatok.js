@@ -28,3 +28,14 @@ export function ciklus2(){
         index++;
 }
 }
+let vtomb= new Array();
+
+export function tomb(){
+    for (let index = 0; index < 50; index++) {
+        let vel =(Math.random()*100)+1;
+        vtomb[index]=vel;
+        console.log(vel);
+        
+    }
+    
+}
