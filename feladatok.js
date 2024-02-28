@@ -1,12 +1,12 @@
 export function udvozles(){
     console.log("Sziaaa")
 }
-var szam="0"
+var szam=0
 let nev="jenő"
 
 console.log(szam +" tipusa:"+ typeof szam)
 console.log(`${szam} típusa: ${typeof szam}`)
-console.log(nev+"tipusa "+typeof nev)
+console.log(nev+" tipusa "+typeof nev)
 export function elagazas(){
     if(szam%2===0){
         console.log("Páros")
